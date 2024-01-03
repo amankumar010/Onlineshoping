@@ -20,6 +20,7 @@ var mainRouter=require('./routes/main.routes');
 var masterRouter=require('./routes/master.routes');
 var emailRouter=require('./routes/sendMail.routes');
 const db = require('./models/index');
+var cors=require('cors');
 
 var app = express();
 
